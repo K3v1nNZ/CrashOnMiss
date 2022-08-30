@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kevin/Documents/Dev/CrashOnMiss/CrashOnMiss.csproj": {}
+  },
+  "projects": {
+    "/home/kevin/Documents/Dev/CrashOnMiss/CrashOnMiss.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kevin/Documents/Dev/CrashOnMiss/CrashOnMiss.csproj",
+        "projectName": "CrashOnMiss.csproj",
+        "projectPath": "/home/kevin/Documents/Dev/CrashOnMiss/CrashOnMiss.csproj",
+        "packagesPath": "/home/kevin/.nuget/packages/",
+        "outputPath": "/home/kevin/Documents/Dev/CrashOnMiss/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/home/kevin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "BeatSaberModdingTools.Tasks": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0-beta1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
