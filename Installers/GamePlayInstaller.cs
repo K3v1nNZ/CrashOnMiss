@@ -1,3 +1,4 @@
+using CrashOnMiss.Event_Broadcasters;
 using SiraUtil.Logging;
 using Zenject;
 
@@ -16,7 +17,8 @@ namespace CrashOnMiss.Installers
 
         public override void InstallBindings()
         {
-            Container.Bind<QuitOnMiss>().AsSingle();
+            Container.BindInterfacesAndSelfTo<QuitOnMiss>().AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<NoteEventBroadcaster>().AsSingle().NonLazy();
         }
 
     }

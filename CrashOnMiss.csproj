@@ -116,13 +116,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Broadcasters\EventBroadcaster.cs" />
+    <Compile Include="Event Broadcasters\EventBroadcaster.cs" />
+    <Compile Include="Event Broadcasters\NoteEventBroadcaster.cs" />
     <Compile Include="Installers\GamePlayInstaller.cs" />
     <Compile Include="Interfaces\IEventHandler.cs" />
     <Compile Include="Interfaces\INoteEventHandler.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="PluginConfig.cs" />
-    <Compile Include="Processors\NoteCountProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuitOnMiss.cs" />
   </ItemGroup>

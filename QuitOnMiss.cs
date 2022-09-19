@@ -10,7 +10,8 @@ namespace CrashOnMiss
 
         public void OnNoteMiss(NoteData data)
         {
-            Application.Quit();
+            
+            if (data.colorType != ColorType.None) Application.Quit();
         }
         
     }
